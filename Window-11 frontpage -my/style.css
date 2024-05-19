@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url('bg.jpeg');
+    background-size:100%;
+   overflow:hidden;
+   height: 100vh;
+}
+.taskbar{
+   position: absolute;
+   width:100%; 
+   background-color: #f3f3f3;
+    bottom: 0px;
+    display:flex;
+    justify-content:center;
+    z-index:110;
+}
+.right
+{
+    position:absolute;
+    right:0px;
+    height:85%;
+}
+.startMenu{
+    position:absolute;
+    width:100%;
+    bottom:-650px;
+    text-align:center;
+    transition: all 0.5s ease-in-out;
+}
+.startMenu img{
+    border-radius: 10px;
+}
+/* video{
+    overflow-y:hidden;
+} */

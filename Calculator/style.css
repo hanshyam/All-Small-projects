@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@400;600&family=Karla:wght@300&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    width:100vw;
+    height:100vh;
+    font-family: 'Baloo Bhaina 2', sans-serif;
+}
+.container{
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 20vw;
+}
+.answerwindow{
+    width: 19vw;
+    height: 100px;
+    margin: 0vw 1vw;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+.numbercontainer{
+    display:grid;
+    grid-template-columns:repeat(4,5vw);
+    grid-template-rows:repeat(4,5vw);
+    width:96%;
+    height:74%;
+    margin:0.5vw auto;
+    border-radius:5px;
+}
+.numberbox{
+    color: white;
+    border:1px solid transparent;
+    border-radius:5px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:2vw;
+    margin:0.1vw;
+    cursor: pointer;
+}
+.numberbox :hover{
+    background-color: aqua;
+}
+.num{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sc-1{
+    background-color:orange;
+}
+.sc-2{
+    background-color:rgb(62 122 167);
+}
